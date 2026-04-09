@@ -1,0 +1,17 @@
+<div ngSkipHydration>
+
+  <h2>Rotas</h2>
+
+  <!-- MAPA -->
+  <div id="map" style="height: 400px; width: 100%;"></div>
+
+  <!-- RESULTADOS -->
+  <div *ngIf="!carregando">
+    <div class="card" *ngFor="let rota of rotas">
+      <h3>{{ rota.tipo }}</h3>
+      <p>{{ rota.tempo }}</p>
+      <p>{{ rota.custo }}</p>
+    </div>
+  </div>
+
+</div>
