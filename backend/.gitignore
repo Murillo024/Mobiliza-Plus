@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Variáveis de ambiente
+.env
+.env.local
+
+# Type checkers / pytest
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# IDEs
+.idea/
+.vscode/
